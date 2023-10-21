@@ -1,0 +1,239 @@
+body{
+  background-color: black;
+}
+h1{
+  font-size: 3.125rem;
+}
+h2{
+  font-size: 1.65rem;
+}
+.subsentence{
+  font-size: 1.2rem;
+  color:white;
+  text-align: center;
+}
+h1.subtitle{
+  padding: 25px 250px;
+}
+
+.form-control{
+  size: 25px;
+}
+
+.input-group>.form-control{
+    flex: 0.5 1 auto;
+	    width: 1%;
+	    margin-left: 400px;
+}
+.navbar-brand{
+
+  font-family:  sans-serif;
+  font-style: bold;
+   color:red;
+ font-size: 2rem;
+ }
+.language{
+  display: inline-block;
+  block-size: 35px;
+  margin-right: 7px;
+  background-color: black;
+  color:#8c8c8c;
+  border-color: #8c8c8c;
+}
+hr{
+  border-top: 8px solid rgb(52, 51, 51);
+  border-radius: 5px;
+  margin: 0pc auto ;
+}
+
+.customisedcontain{
+  margin-top: 150px;
+  margin-left:100px;
+  text-align: center;
+  color:white;
+}
+
+.title{
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/2029cf37-4e1b-49c1-8127-6cdbfe328360/KY-en-20231016-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.describeimage{
+  width: 400px;
+  height: 300px;
+}
+.describecol{
+text-align: center;
+font-size: 1.25rem;
+margin: 50px auto;
+}
+.describerow{
+  height: 400px;
+  
+}
+.netflixknowledge{
+margin: 100px auto;
+color:white
+
+}
+
+.Strange{
+  color:white;
+  font-size: small;
+}
+.download{
+  color:blue;
+  font-size: small;
+}
+
+
+.diagonalbox{
+  width: 325px;
+  border-style: solid;
+  border-color: #737373;
+  border-radius: 9px;
+  margin-top: 300px;
+  margin-left: 60px;
+  background-color: black;
+}
+
+.backimage{
+  background-image: url( "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+  background-position-y: center;
+  background-position-x: right;
+}
+
+.myDiv{
+  height: 60px;
+  width: 5in;
+  background-color: #303030;
+  color:white;
+  margin: 5px 5px 1px 300px; 
+  border: 0;
+  font-weight: 400;
+  margin-bottom: 1px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  position: relative;
+}
+
+.FAQ{
+  text-align: center;
+  color:white;
+}
+.fontawesome{
+  float: right;
+}
+.expand{
+   width: 5in;
+   background-color: #303030;
+   color:white;
+padding:5px;
+margin: 5px 5px 1px 300px; 
+}
+.footer{
+  color:white;
+  display:flex;
+  color:#737373;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color:#737373;
+}
+a{
+  color:#737373;
+}
+.end{
+  padding-top:5px ;
+  color:#737373;
+}
+
+.signin{
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/7064cb96-688c-4ee7-99d6-707333acb433/KY-en-20230227-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+height:750px;
+}
+input{
+  background-color: #737373;
+  height:55px;
+ 
+}
+::placeholder {
+color:black;
+}
+.newto{
+  padding-top:60px;
+}
+.sun{
+  color:white;
+  font-style: bold;
+  padding-left:2px;
+}
+
+.signcontain{
+  width:550px;
+  background-color: rgba(0,0,0,.75);
+  color:#737373;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+
+}
+.signhead{
+  color: white;
+ 
+}
+
+.email{
+  margin-top:10px ;
+  margin-bottom:10px;
+  margin-left: 2px;
+}
+.googlecap{
+  font-size: small;
+}
+.link{
+  color:blue;
+}
+
+  
+@media only screen and (max-width: 750px) {
+ h1{
+    font-size: 1.75rem;
+  }
+h2{
+  font-size: 1.2rem;
+}
+.container{
+  margin-left:15px; 
+}
+.input-group>.form-control{
+    margin-left: 100px;
+}
+
+.describerow{
+  height: 600px;
+  text-align:center;
+}
+}
+
+@media only screen and (max-width: 997px) {
+  h1.subtitle{
+    padding: 25px 50px;
+  }
+.myDiv{
+  margin: 5px 5px 1px 10px;
+}
+.expand{
+  margin: 5px 5px 1px 10px;
+}
+  .diagonalbox{
+    
+    margin-left: 0px;
+  
+  }
+}
